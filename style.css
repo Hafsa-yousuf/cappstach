@@ -1,0 +1,496 @@
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url(./Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Gilroy-light";
+  src: url(./Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf) format("opentype");
+}
+
+body {
+  background-color: rgb(252, 250, 247);
+  color: #000;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Gilroy-light", sans-serif;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+
+.offcanvas {
+  background-color: rgb(0, 0, 0);
+}
+
+.offcanvas button {
+  position: fixed;
+  top: 0%;
+  right: 2%;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  background-color: #000;
+  border: none;
+}
+
+.hero h1 {
+  font-size: 90px !important;
+  font-weight: 500;
+  line-height: 72px;
+}
+
+.hero p {
+  font-family: "Gilroy-light", sans-serif !important ;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.hero .contact {
+  background-color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.hero .contact:hover {
+  background-color: #fff;
+  color: rgb(255, 111, 47);
+}
+
+.hero .projects {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 6px 12px;
+}
+
+.projects span img {
+  width: 50px;
+  height: 50px;
+  transition: all 0.4s ease;
+}
+
+.projects span img:hover {
+  transform: rotate(-45deg);
+}
+.banner-img {
+  animation: Bounce 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+.scroll a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.services h2 {
+  font-size: 70px !important;
+}
+
+.services p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.services-img {
+  animation: Bounce 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+.services-details h3:after {
+  content: "";
+  background-color: #6d89ae;
+  height: 8px;
+  width: 88px;
+  display: block;
+  margin-top: 35px;
+}
+.services-details h3 {
+  font-size: 40px;
+}
+
+.services-details p {
+  font-size: 18px;
+}
+
+.explore-button {
+  background-color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+  color: #fff;
+  padding: 12px 60px;
+  border-radius: 17px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.explore-button:hover {
+  background-color: #fff;
+  color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+}
+
+.featured h2 {
+  font-size: 70px;
+}
+
+.featured p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.carousel-indicators {
+  bottom: auto;
+  margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  background: #6d89ae;
+  width: 11px;
+  height: 8px;
+  border-radius: 12px;
+  margin: 2px;
+  transition: all 0.25s ease-in;
+  border: none !important;
+}
+
+.carousel-indicators .active {
+  background: #ff6f2f;
+  width: 80px;
+}
+.pre-arrow {
+  border: none;
+  box-shadow: none;
+  transform: translateX(-120%);
+  background-color: rgb(252, 250, 247);
+}
+.nex-arrow {
+  border: none;
+  box-shadow: none;
+  transform: translateX(120%);
+  background-color: rgb(252, 250, 247);
+}
+.pre-arrow img {
+  width: 60px;
+}
+
+.nex-arrow img {
+  width: 60px;
+}
+.view-project {
+  background-color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.view-project:hover {
+  background-color: #fff;
+  color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+}
+
+.about .container {
+  background-color: white;
+  border-radius: 63px;
+}
+.about h3 {
+  font-size: 34px;
+}
+.about h2 {
+  font-size: 54px;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about button {
+  background-color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+  color: #fff;
+  padding: 10px 50px;
+  border-radius: 17px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.about button:hover {
+  background-color: #fff;
+  color: rgb(255, 111, 47);
+  border: 2px solid rgb(255, 111, 47);
+}
+.about img {
+  animation: Bounce 4s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+}
+
+@keyframes Bounce {
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.img-box {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 0px 100px 99px #d6bfb129;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.Professionals h2 {
+  font-size: 80px;
+}
+
+.Professionals p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.logo-s {
+  width: 100%;
+  transform: translate3d(-1203, 0, 0);
+}
+
+.owl-item {
+  width: 128.906px;
+  margin-right: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none;
+}
+
+.clients h2 {
+  font-size: 70px;
+}
+
+.clients p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.conversation h2 {
+  font-size: 54px;
+}
+
+.conversation p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.requirement::after {
+  content: "*";
+  color: red;
+}
+
+.Name::after {
+  content: "*";
+  color: red;
+}
+
+.email::after {
+  content: "*";
+  color: red;
+}
+
+.form-control {
+  background-color: #f5f1ea;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 10px;
+  box-shadow: unset;
+}
+.send {
+  background-color: #ff6f2f;
+  border: 2px solid #ff6f2f;
+  border-radius: 17px;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 50px;
+  opacity: 0.65;
+}
+
+.send:hover {
+  background-color: #ff6f2f;
+  border: 2px solid #ff6f2f;
+  opacity: 1;
+}
+
+.form label {
+  font-size: 20px;
+  font-weight: 60px;
+}
+
+.text-end h2 {
+  font-size: 60px;
+}
+
+.footer {
+  background-color: #434f59;
+  color: white;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+.footer .nav-link {
+  text-transform: none;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: start;
+}
+
+.nav-link svg {
+  margin-right: 20px;
+}
+
+.footer .nav-link:hover {
+  text-transform: none;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: start;
+  color: white;
+}
+
+@media screen and (max-width: 425px) {
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .projects span img {
+    width: 35px;
+    height: 35px;
+  }
+  .hero .projects {
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-toggler img {
+    height: 50px;
+    width: 50px;
+  }
+  .nav-link {
+    text-align: center !important;
+  }
+
+  .hero h1 {
+    font-size: 40px !important;
+    line-height: normal;
+  }
+  .hero p {
+    font-size: 16px !important;
+    line-height: 25px;
+  }
+
+  .services p {
+    font-size: 16px;
+  }
+
+  .featured p {
+    font-size: 16px;
+  }
+
+  .featured h2 {
+    font-size: 50px !important;
+  }
+
+  .services-details h3 {
+    font-size: 28px !important;
+  }
+
+  .services-details img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .services-details h3:after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pre-arrow img {
+    width: 50px;
+  }
+  .nex-arrow img {
+    width: 50px;
+  }
+  .about h3 {
+    font-size: 20px !important;
+  }
+  .about h2 {
+    font-size: 24px !important;
+  }
+
+  .about p {
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+  .Professionals p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+
+  .clients h2 {
+    font-size: 36px !important;
+  }
+
+  .clients p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+  .conversation h2 {
+    font-size: 24px !important;
+  }
+
+  .conversation p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+  }
+
+  .services h2 {
+    font-size: 40px !important;
+  }
+  .text-end h2 {
+    font-size: 28px !important;
+  }
+
+  .footer p {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  p {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Professionals h2 {
+    font-size: 40px !important;
+  }
+}
